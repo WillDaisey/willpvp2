@@ -9,5 +9,8 @@ scoreboard objectives add random dummy
 scoreboard objectives add random_modifier dummy
 scoreboard objectives add use_carrot_stick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add drop minecraft.custom:minecraft.drop
+scoreboard objectives add player_id dummy
+
+summon minecraft:marker 0 0 0 {Tags:["player_count"]}
 
 tellraw @a {"text":"Loaded WillPvP2","color":"green"}

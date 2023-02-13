@@ -13,4 +13,4 @@ execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:barrel"},PickupDelay:
 
 execute as @a[tag=eagle] at @s run function willpvp2:kit/eagle/tick
 
-execute at @e[tag=ward] run effect give @a[distance=..15] minecraft:glowing 1 0 true
+execute as @e[tag=ward] at @s run function willpvp2:shop/ward/tick

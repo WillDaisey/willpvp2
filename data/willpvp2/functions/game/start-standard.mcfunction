@@ -1,6 +1,9 @@
 experience set @a 0 levels
 experience set @a 0 points
 
+# Update player IDs.
+function willpvp2:logic/set_player_count
+
 # Whilst in a game, all players will get the 'playing' tag.
 # This tag is then removed from a player when they die, or if the game stops.
 tag @a add playing
