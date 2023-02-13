@@ -6,4 +6,5 @@ tag @s remove item.knights_helm
 tag @s remove item.knights_sword
 tag @s remove item.brawlers_gloves
 tag @s remove item.kings_armour
+tag @s remove item.wolves
 tellraw @s[tag=debug] [{"text":"- ","color":"dark_gray"}, {"text":" Item tags cleared."}]
