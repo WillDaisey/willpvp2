@@ -20,6 +20,7 @@ function willpvp2:shop/clear_item_tags
 # Reset item scoreboard data.
 scoreboard players set @s shop.golden_apples 0
 scoreboard players set @s shop.wards 0
+scoreboard players set @s shop.fireworks 0
 
 # Restore money.
 scoreboard players set @s money 100

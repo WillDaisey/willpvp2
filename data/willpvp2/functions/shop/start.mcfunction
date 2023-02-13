@@ -33,5 +33,6 @@ scoreboard players set @a money 100
 # Create shop item scoreboards.
 scoreboard objectives add shop.golden_apples dummy
 scoreboard objectives add shop.wards dummy
+scoreboard objectives add shop.fireworks dummy
 
 execute as @a[tag=plunderbones] run function willpvp2:shop/start_plunderbones
