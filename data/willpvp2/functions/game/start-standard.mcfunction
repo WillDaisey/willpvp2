@@ -18,6 +18,4 @@ effect give @a minecraft:speed 5 2 true
 
 stopsound @a
 
-execute as @a at @s run function willpvp2:kit/generic/supply
-
 tellraw @a [{"text":"> The game begins.","color":"yellow"},{"text":" Standard rules.","color":"gray"}]
