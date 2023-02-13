@@ -6,7 +6,7 @@ schedule function willpvp2:kit/thundercrash/title_s 20t replace
 schedule function willpvp2:kit/thundercrash/title 40t replace
 
 title @s times 5 40 60
-title @s title {"text":"Thundercrash", "bold":true, "color":"yellow"}
+title @s title {"text":"Thundercrash", "color":"yellow"}
 title @s subtitle {"text":"Obliteration awaits.","color":"red"}
 playsound minecraft:entity.allay.death master @s ~ ~ ~ 2 0.5
 
