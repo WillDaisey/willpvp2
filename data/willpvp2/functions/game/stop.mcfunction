@@ -1,5 +1,6 @@
 # Stops the current game.
 
+kill @e[type=minecraft:armor_stand,tag=ward]
 function willpvp2:shop/clear_attribute_modifiers
 function willpvp2:shop/clear_shop_data
 function willpvp2:logic/uninit_game
