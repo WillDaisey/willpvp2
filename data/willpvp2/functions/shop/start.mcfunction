@@ -35,4 +35,6 @@ scoreboard objectives add shop.golden_apples dummy
 scoreboard objectives add shop.wards dummy
 scoreboard objectives add shop.fireworks dummy
 
+execute as @a[tag=eagle] run function willpvp2:shop/start_eagle
 execute as @a[tag=plunderbones] run function willpvp2:shop/start_plunderbones
+execute as @a[tag=thundercrash] run function willpvp2:shop/start_thundercrash

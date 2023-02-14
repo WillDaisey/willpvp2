@@ -9,4 +9,5 @@ tag @s remove item.kings_armour
 tag @s remove item.wolves
 tag @s remove item.bow
 tag @s remove item.elytra
+tag @s remove item.supplies
 tellraw @s[tag=debug] [{"text":"- ","color":"dark_gray"}, {"text":" Item tags cleared."}]
