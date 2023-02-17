@@ -15,4 +15,4 @@ item replace entity @s armor.chest with minecraft:netherite_chestplate{Unbreakab
 item replace entity @s armor.legs with leather_leggings{Unbreakable:1,display:{Name:"\"Thundercrash's Leggings\"",Lore:["\"Legendary tailoring.\""],color:1908001}}
 item replace entity @s armor.feet with leather_boots{Unbreakable:1,display:{Name:"\"Thundercrash's Boots\"",Lore:["\"Footwear for days.\""],color:1908001}}
 
-item replace entity @s container.0 with minecraft:iron_axe{Unbreakable:1,Enchantments:[{id:sharpness,lvl:2},{id:knockback,lvl:1}]}
+item replace entity @s container.0 with minecraft:iron_axe{Unbreakable:1,Enchantments:[{id:sharpness,lvl:2},{id:knockback,lvl:1}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:5,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-123110,31854,233540,-63708]},{AttributeName:"generic.attack_speed",Amount:-3,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-123110,32054,233540,-64108]}]}
