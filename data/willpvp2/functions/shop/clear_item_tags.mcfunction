@@ -10,4 +10,7 @@ tag @s remove item.wolves
 tag @s remove item.bow
 tag @s remove item.elytra
 tag @s remove item.supplies
+tag @s remove item.whirlwind_axe
+tag @s remove item.air_scrolls
+tag @s remove item.mystery
 tellraw @s[tag=debug] [{"text":"- ","color":"dark_gray"}, {"text":" Item tags cleared."}]

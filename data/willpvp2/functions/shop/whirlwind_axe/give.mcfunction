@@ -1,0 +1,3 @@
+attribute @s minecraft:generic.attack_knockback modifier add fbeffdd7-d858-4436-b185-c6bd1c374743 whirlwind_axe 2 add
+give @s minecraft:iron_axe{display:{Name:"\"Whirlwind Axe\"",Lore:['"+2 Attack Knockback"','"This item is for cosmetic purposes only."','"It does not alter your attributes."']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:0,Operation:0,UUID:[I;-120928,17212,222348,-34424],Slot:mainhand,Name:"generic.attack_damage"}]}
+tellraw @a [{"selector":"@s","color":"red"},{"text":" has a Whirlwind Axe!"}]

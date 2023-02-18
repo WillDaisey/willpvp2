@@ -1,3 +1,3 @@
-attribute @s minecraft:generic.armor modifier add 1fae3f77-e280-422b-bfb3-e2aac897b26b knights_sword 3 add
-give @s minecraft:iron_sword{display:{Name:"\"Knight's Sword\"",Lore:['"+3 Attack Damage"','"This item is for cosmetic purposes only."','"It does not alter your attributes."']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:0,Operation:0,UUID:[I;-120928,17212,222348,-34424],Slot:mainhand,Name:"generic.armor"}]}
+attribute @s minecraft:generic.attack_damage modifier add 1fae3f77-e280-422b-bfb3-e2aac897b26b knights_sword 3 add
+give @s minecraft:iron_sword{display:{Name:"\"Knight's Sword\"",Lore:['"+3 Attack Damage"','"This item is for cosmetic purposes only."','"It does not alter your attributes."']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:0,Operation:0,UUID:[I;-120928,17212,222348,-34424],Slot:mainhand,Name:"generic.attack_damage"}]}
 tellraw @a [{"selector":"@s","color":"red"},{"text":" has a Knight's Sword!"}]

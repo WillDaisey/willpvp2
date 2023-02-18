@@ -1,0 +1,3 @@
+attribute @s minecraft:generic.attack_damage modifier add c15d5a95-4abc-44a9-a8c8-f1d964221a0b deathblade 9 add
+give @s minecraft:netherite_sword{display:{Name:"\"Deathblade\"",Lore:['"+9 Attack Damage"','"This item is for cosmetic purposes only."','"It does not alter your attributes."']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:0,Operation:0,UUID:[I;-120928,17212,222348,-34424],Slot:mainhand,Name:"generic.attack_damage"}]}
+tellraw @a [{"selector":"@s","color":"red"},{"text":" has a ",},{"text":"deathblade","color":"dark_purple","hoverEvent":{"action":"show_text","contents":"+9 Attack Damage"}}]]
