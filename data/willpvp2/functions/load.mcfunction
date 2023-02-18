@@ -11,6 +11,12 @@ scoreboard objectives add use_carrot_stick minecraft.used:minecraft.carrot_on_a_
 scoreboard objectives add drop minecraft.custom:minecraft.drop
 scoreboard objectives add player_id dummy
 
-summon minecraft:marker 0 0 0 {Tags:["player_count"]}
+summon minecraft:marker 0 0 0 {Tags:["player_count", "willpvp2Data"], data:{inGame:0b, arena:plainhills}}
+
+# Take everyone to the lobby (unless they have the debug tag).
+execute as @a[tag=!debug] run function willpvp2:game/lobby
+
+# Clear everyone's kits (unless they have the debug tag).
+execute as @a[tag=!debug] run function willpvp2:kit/generic/clear
 
 tellraw @a {"text":"Loaded WillPvP2","color":"green"}

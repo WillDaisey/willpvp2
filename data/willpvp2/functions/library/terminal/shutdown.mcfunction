@@ -3,4 +3,4 @@ setblock -14 -46 11 minecraft:player_head[rotation=4]{SkullOwner:{Id:[I;29985724
 setblock -15 -48 12 minecraft:redstone_wall_torch[facing=west] destroy
 scoreboard objectives remove terminal
 
-tellraw @a[tag=debug] "Terminal turned off."
+tellraw @a[tag=debug] [{"text":"- ","color":"dark_gray"}, {"text":" Terminal turned off."}]

@@ -1,0 +1,1 @@
+data modify entity @e[tag=willpvp2Data,limit=1] data set value {arena:plainhills}

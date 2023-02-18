@@ -1,9 +1,10 @@
 # Stops the current game.
 
-kill @e[type=minecraft:armor_stand,tag=ward]
+# Kill game entities (e.g. wards, pet wolves, etc.).
+kill @e[tag=willpvp2GameEntity]
+
 function willpvp2:shop/clear_attribute_modifiers
 function willpvp2:shop/clear_shop_data
-function willpvp2:arena/uninit_game
-setblock 0 7 0 minecraft:pink_stained_glass
+function willpvp2:arena/cleanup
 execute as @a run function willpvp2:game/unready
 tag @a remove playing
