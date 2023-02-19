@@ -13,6 +13,7 @@ tag @s remove plunderbones
 tag @s remove lost_elytra
 tag @s remove thundercrash
 tag @s remove clown
+tag @a remove willpvp2ForbiddenClown
 
 scoreboard players set @s fly_speed 0
 scoreboard players set @s damage_dealt 0
