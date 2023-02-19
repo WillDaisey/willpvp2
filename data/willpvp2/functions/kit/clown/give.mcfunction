@@ -1,7 +1,7 @@
 function willpvp2:kit/generic/clear
 
 playsound minecraft:entity.witch.celebrate master @s ~ ~ ~ 2 2 1
-playsound minecraft:music_disc.ward master @a ~ ~ ~ 2 1.2 1
+playsound minecraft:music_disc.ward master @s ~ ~ ~ 2 1.2 1
 
 schedule function willpvp2:kit/clown/stop_intro_music 6s replace
 
