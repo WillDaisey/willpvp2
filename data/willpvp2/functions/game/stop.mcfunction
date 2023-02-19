@@ -11,6 +11,7 @@ tag @a remove playing
 tag @a remove willpvp2IdentityMorphed
 tag @a remove willpvp2ClownWaitingForSupply
 tag @a remove willpvp2FearTheClown
+tag @a remove purgatory_victim
 scoreboard objectives remove willpvp2ClownSupplies
 
 # Set inGame to false.

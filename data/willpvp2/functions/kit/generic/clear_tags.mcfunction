@@ -7,7 +7,6 @@ tag @s remove insect
 tag @s remove insect_target
 tag @s remove puppetmaster
 tag @s remove purgatory
-tag @s remove purgatory_victim
 tag @s remove purgatory_in_realm
 tag @s remove plunderbones
 tag @s remove lost_elytra
