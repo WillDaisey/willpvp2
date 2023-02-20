@@ -1,4 +1,4 @@
-function willpvp2:kit/generic/clear
+function willpvp2:kit/generic/prepare
 
 tag @s add umbra
 

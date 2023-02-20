@@ -1,9 +1,9 @@
-function willpvp2:kit/generic/clear
+function willpvp2:kit/generic/prepare
 
 playsound minecraft:entity.warden.sonic_charge master @s ~ ~ ~ 2 1.6 1
 
 tag @s add purgatory
-tag @s add purgatory_title
+tag @s add willpvp2PurgatoryTitle
 
 title @s times 0 20 0
 title @s title {"text":"Purgatory","color":"black"}

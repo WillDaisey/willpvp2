@@ -1,4 +1,4 @@
-function willpvp2:kit/generic/clear
+function willpvp2:kit/generic/prepare
 
 playsound minecraft:entity.witch.celebrate master @s ~ ~ ~ 2 2 1
 playsound minecraft:music_disc.ward master @s ~ ~ ~ 2 1.2 1
@@ -6,7 +6,7 @@ playsound minecraft:music_disc.ward master @s ~ ~ ~ 2 1.2 1
 schedule function willpvp2:kit/clown/stop_intro_music 6s replace
 
 tag @s add clown
-tag @s add clown_intro
+tag @s add willpvp2ClownIntro
 
 title @s times 5 35 30
 title @s title {"text":"Clown","color":"white"}

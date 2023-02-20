@@ -23,5 +23,3 @@ attribute @s minecraft:generic.attack_speed modifier remove a41a35c0-4f62-453f-8
 
 # Remove deathblade modifier.
 attribute @s minecraft:generic.attack_damage modifier remove c15d5a95-4abc-44a9-a8c8-f1d964221a0b
-
-tellraw @s[tag=debug] [{"text":"- ","color":"dark_gray"}, {"text":" Cleared item attribute modifiers."}]

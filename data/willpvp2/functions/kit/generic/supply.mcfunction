@@ -8,4 +8,3 @@ execute if entity @s[tag=purgatory] run function willpvp2:kit/purgatory/supply
 execute if entity @s[tag=plunderbones] run function willpvp2:kit/plunderbones/supply
 execute if entity @s[tag=thundercrash] run function willpvp2:kit/thundercrash/supply
 execute if entity @s[tag=clown] run function willpvp2:kit/clown/supply
-execute if entity @s[tag=willpvp2ForbiddenClown] run function willpvp2:kit/clown/forbidden_supply

@@ -1,7 +1,9 @@
-function willpvp2:kit/generic/clear
+function willpvp2:kit/generic/prepare
 
 tag @s add thundercrash
-tag @s add thundercrash_title
+tag @s add willpvp2ThundercrashTitle
+tag @s add willpvp2DisableShopExtraSupplies
+
 schedule function willpvp2:kit/thundercrash/title_s 20t replace
 schedule function willpvp2:kit/thundercrash/title 40t replace
 

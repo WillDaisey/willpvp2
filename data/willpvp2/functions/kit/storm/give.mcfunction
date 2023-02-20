@@ -1,4 +1,4 @@
-function willpvp2:kit/generic/clear
+function willpvp2:kit/generic/prepare
 tag @s add storm
 
 playsound minecraft:entity.lightning_bolt.thunder master @s ~ ~ ~ 2 0.5 1

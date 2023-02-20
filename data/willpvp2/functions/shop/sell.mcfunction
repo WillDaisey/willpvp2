@@ -26,4 +26,5 @@ scoreboard players set @s shop.ender_pearls 0
 # Restore money.
 scoreboard players set @s money 100
 
-execute if entity @s[tag=plunderbones] run function willpvp2:shop/start_plunderbones
+# Do kit-dependent stuff.
+function willpvp2:kit/generic/on_shop_start

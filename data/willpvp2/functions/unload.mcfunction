@@ -1,7 +1,5 @@
 function willpvp2:game/stop
 
-execute as @a run function willpvp2:kit/generic/clear_tags
-
 scoreboard objectives remove fly_speed
 scoreboard objectives remove damage_dealt
 scoreboard objectives remove damage_taken

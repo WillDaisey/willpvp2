@@ -1,6 +1,13 @@
+# Leave the shop and start the game.
 
+# Give initial supply items.
 execute as @a run function willpvp2:kit/generic/supply
-execute as @a run function willpvp2:shop/give_items
-execute as @a run function willpvp2:shop/clear_shop_data
 
-function willpvp2:game/start-standard
+# Give shop items.
+execute as @a run function willpvp2:shop/give_items
+
+# Cleanup shopping list data.
+execute as @a run function willpvp2:shop/remove_shopping_list
+
+# Start the game.
+function willpvp2:game/start

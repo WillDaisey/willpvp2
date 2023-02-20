@@ -12,5 +12,4 @@ execute if entity @s[scores={random=5}] run function willpvp2:kit/tormentor/give
 execute if entity @s[scores={random=6}] run function willpvp2:kit/umbra/give
 execute if entity @s[scores={random=7}] run function willpvp2:kit/plunderbones/give
 execute if entity @s[scores={random=8}] run function willpvp2:kit/thundercrash/give
-execute if entity @s[scores={random=9},tag=!willpvp2IdentityMorphed] run function willpvp2:kit/clown/give
-execute if entity @s[scores={random=9},tag=willpvp2IdentityMorphed] run function willpvp2:kit/clown/forbidden
+execute if entity @s[scores={random=9}] run function willpvp2:kit/clown/give

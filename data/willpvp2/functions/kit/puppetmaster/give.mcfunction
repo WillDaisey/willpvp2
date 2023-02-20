@@ -1,4 +1,4 @@
-function willpvp2:kit/generic/clear
+function willpvp2:kit/generic/prepare
 
 playsound minecraft:entity.warden.sonic_boom master @s ~ ~ ~ 2 0.8 1
 

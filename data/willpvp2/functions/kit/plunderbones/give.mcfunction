@@ -1,4 +1,4 @@
-function willpvp2:kit/generic/clear
+function willpvp2:kit/generic/prepare
 tag @s add plunderbones
 
 playsound minecraft:entity.player.hurt_freeze master @s ~ ~ ~ 2 0.5 1

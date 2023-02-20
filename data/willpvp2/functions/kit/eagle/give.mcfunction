@@ -1,8 +1,9 @@
-function willpvp2:kit/generic/clear
+function willpvp2:kit/generic/prepare
 
 playsound minecraft:entity.fox.screech master @s ~ ~ ~ 2 1.5 1
 
 tag @s add eagle
+tag @s add willpvp2DisableShopExtraSupplies
 
 title @s times 5 40 5
 title @s title {"text":"Eagle","color":"aqua"}
