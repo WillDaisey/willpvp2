@@ -1,7 +1,6 @@
 schedule clear willpvp2:kit/purgatory/title
 schedule clear willpvp2:kit/thundercrash/title
 schedule clear willpvp2:kit/thundercrash/title_s
-tag @a remove willpvp2ClownIntro
 tag @a remove willpvp2PurgatoryTitle
 tag @a remove willpvp2ThundercrashTitle
 
