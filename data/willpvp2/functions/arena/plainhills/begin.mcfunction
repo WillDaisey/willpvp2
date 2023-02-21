@@ -2,6 +2,8 @@ title @s reset
 title @s clear
 title @s title "Plain Hills"
 
+data modify entity @e[tag=willpvp2Data,limit=1] data.arena set value plainhills
+
 # Set the in-game worldborder position and size.
 worldborder center 0 0
 worldborder set 101

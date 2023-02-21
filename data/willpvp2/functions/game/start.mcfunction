@@ -15,9 +15,9 @@ schedule function willpvp2:arena/worldborder_shrink 45s replace
 schedule function willpvp2:logic/game_cycle 14s replace
 
 # Do arena-specific initialisation.
-execute if entity @e[tag=willpvp2Data, nbt={data:{arena:random}}] run function willpvp2:arena/begin_random
-execute if entity @e[tag=willpvp2Data, nbt={data:{arena:plainhills}}] run function willpvp2:arena/plainhills/begin
-execute if entity @e[tag=willpvp2Data, nbt={data:{arena:magmacave}}] run function willpvp2:arena/magmacave/begin 
+execute if entity @e[tag=willpvp2Data, nbt={data:{arenaSelect:random}}] run function willpvp2:arena/begin_random
+execute if entity @e[tag=willpvp2Data, nbt={data:{arenaSelect:plainhills}}] run function willpvp2:arena/plainhills/begin
+execute if entity @e[tag=willpvp2Data, nbt={data:{arenaSelect:magmacave}}] run function willpvp2:arena/magmacave/begin 
 
 # Remove out-of-game resistance.
 effect clear @a minecraft:resistance

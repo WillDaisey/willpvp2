@@ -23,7 +23,8 @@ execute as @a run function willpvp2:game/unready
 
 function willpvp2:kit/on_game_stop
 
-# Set inGame to false.
+# Indicate that we are no longer in a game.
 data modify entity @e[tag=willpvp2Data,limit=1] data.inGame set value 0b
+data modify entity @e[tag=willpvp2Data,limit=1] data.arena set value null
 
 kill @e[type=minecraft:item]
