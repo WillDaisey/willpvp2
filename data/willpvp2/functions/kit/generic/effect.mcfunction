@@ -6,6 +6,6 @@ execute if entity @s[nbt={ActiveEffects:[{Id:27,Amplifier:2b}]}] run function wi
 
 execute if entity @s[nbt={ActiveEffects:[{Id:27,Amplifier:3b}]}] run function willpvp2:kit/purgatory/realm_victim
 
-# execute if entity @s[nbt={ActiveEffects:[{Id:27,Amplifier:4b}]}] run function willpvp2:switch_arrow
+execute if entity @s[nbt={ActiveEffects:[{Id:27,Amplifier:4b}]}] run function willpvp2:kit/clown/decoy_portal
 
 effect clear @s minecraft:unluck
