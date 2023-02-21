@@ -7,5 +7,3 @@ function willpvp2:kit/generic/supply
 schedule function willpvp2:kit/clown/transform_back_schedule 10s replace
 
 effect give @s minecraft:instant_health 1 1 true
-
-clear @s minecraft:carrot_on_a_stick{display:{Name:"\"Transform\""}} 1
