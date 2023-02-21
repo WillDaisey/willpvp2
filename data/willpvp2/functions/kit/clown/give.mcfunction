@@ -19,3 +19,5 @@ item replace entity @s armor.chest with minecraft:leather_chestplate{display:{co
 item replace entity @s armor.legs with minecraft:leather_leggings{display:{color:16777215},Unbreakable:1,Enchantments:[{id:protection,lvl:1}]}
 
 item replace entity @s armor.feet with minecraft:leather_boots{display:{color:16711680},Unbreakable:1,Enchantments:[{id:protection,lvl:1}]}
+
+give @s minecraft:iron_hoe{Enchantments:[{id:knockback,lvl:2},{id:sharpness,lvl:3}],display:{Name:"\"Knife to meet you\""},Unbreakable:1}
