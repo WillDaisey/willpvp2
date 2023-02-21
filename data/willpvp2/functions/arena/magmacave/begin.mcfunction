@@ -9,7 +9,7 @@ worldborder center 0 105
 worldborder set 101
 
 # Schedule arena events.
-schedule function willpvp2:arena/magmacave/beacon_charge 15s replace
+schedule function willpvp2:arena/magmacave/beacon_charge 25s replace
 
 # Set the beacon to white.
 setblock 0 13 105 minecraft:glass
