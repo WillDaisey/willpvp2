@@ -1,4 +1,3 @@
-stopsound @s
 clear @s
 effect clear @s
 stopsound @s
