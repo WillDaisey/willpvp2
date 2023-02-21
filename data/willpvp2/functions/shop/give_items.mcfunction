@@ -4,7 +4,7 @@
 execute if entity @s[tag=item.supplies] run function willpvp2:shop/supplies/give
 execute if entity @s[tag=item.shield] run function willpvp2:shop/shield/give
 execute if entity @s[tag=item.totem] run function willpvp2:shop/totem/give
-execute if entity @s[scores={shop.ender_pearls=1..}] run function willpvp2:shop/ender_pearls/give
+execute if entity @s[scores={shop.ender_pearls=1..}] run function willpvp2:shop/ender_pearl/give
 execute if entity @s[scores={shop.golden_apples=1..}] run function willpvp2:shop/golden_apple/give
 execute if entity @s[tag=item.wolves] run function willpvp2:shop/wolves/give
 execute if entity @s[scores={shop.wards=1..}] run function willpvp2:shop/ward/give
