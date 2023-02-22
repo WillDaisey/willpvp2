@@ -15,4 +15,4 @@ schedule function willpvp2:arena/magmacave/beacon_charge 25s replace
 setblock 0 13 105 minecraft:glass
 
 # Teleport players into the magmacave arena.
-spreadplayers 0 75 15 35 under 50 false @a
+spreadplayers 0 105 15 45 under 50 false @a
