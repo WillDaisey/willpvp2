@@ -9,7 +9,7 @@ worldborder center 0 0
 worldborder set 101
 
 # Schedule arena events
-schedule function willpvp2:arena/plainhills/beacon_charge 15s replace
+schedule function willpvp2:arena/plainhills/beacon_charge 20s replace
 
 # Set the beacon to white.
 setblock 0 7 0 minecraft:glass

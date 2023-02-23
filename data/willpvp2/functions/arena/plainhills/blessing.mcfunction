@@ -5,4 +5,4 @@ execute positioned 0 7 0 as @p[distance=..8] at @s run function willpvp2:kit/gen
 particle minecraft:soul_fire_flame 0 8 0 0 0 0 0.5 30 normal
 
 schedule function willpvp2:arena/plainhills/beacon_cooldown 3s replace
-schedule function willpvp2:arena/plainhills/beacon_charge 15s replace
+schedule function willpvp2:arena/plainhills/beacon_charge 20s replace
