@@ -4,10 +4,10 @@ tag @s add thundercrash
 tag @s add willpvp2ThundercrashTitle
 tag @s add willpvp2DisableShopExtraSupplies
 
-schedule function willpvp2:kit/thundercrash/title_s 20t replace
-schedule function willpvp2:kit/thundercrash/title 40t replace
+schedule function willpvp2:kit/thundercrash/title_s 10t replace
+schedule function willpvp2:kit/thundercrash/title 20t replace
 
-title @s times 5 40 60
+title @s times 5 20 20
 title @s title {"text":"Thundercrash", "color":"yellow"}
 title @s subtitle {"text":"Obliteration awaits.","color":"red"}
 playsound minecraft:entity.allay.death master @s ~ ~ ~ 2 0.5
