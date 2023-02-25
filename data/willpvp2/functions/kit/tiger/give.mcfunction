@@ -14,5 +14,6 @@ item replace entity @s armor.chest with minecraft:leather_chestplate{Unbreakable
 item replace entity @s armor.legs with minecraft:leather_leggings{Unbreakable:1,display:{Name:"\"Tiger's Leggings\"",Lore:["\"From the wild.\""],color:1908001}}
 item replace entity @s armor.feet with minecraft:leather_boots{Unbreakable:1,display:{Name:"\"Tiger's Boots\"",Lore:["\"From the wild.\""],color:16351261}}
 
-effect give @s minecraft:speed 10000 1 true
-effect give @s minecraft:strength 10000 0 true
+effect give @s minecraft:speed 10000 0 true
+effect give @s minecraft:strength 10000 1 true
+effect give @s minecraft:night_vision 10000 0 true
