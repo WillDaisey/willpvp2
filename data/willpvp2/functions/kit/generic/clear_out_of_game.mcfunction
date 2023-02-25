@@ -1,12 +1,9 @@
-clear @s
-effect clear @s
-stopsound @s
-title @s reset
-title @s clear
-team leave @s
-team join players @s
-function willpvp2:kit/generic/clear_tags
+# Called when a kit is cleared whilst a game is not running.
 
+tag @s remove purgatory_victim
+tag @s remove willpvp2TransformedClown
+tag @s remove purgatory_in_realm
+
+stopsound @s
 effect give @s minecraft:resistance 10000 4 true
 effect give @s minecraft:regeneration 5 4 true
-

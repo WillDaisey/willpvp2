@@ -22,7 +22,6 @@ function willpvp2:logic/generate_byte
 scoreboard players set @s random_modifier 9
 scoreboard players operation @s random %= @s random_modifier
 
-effect give @a minecraft:blindness 3 0 true
 execute if entity @s[scores={random=0..3}] run function willpvp2:arena/plainhills/start_weather/calm_day
 execute if entity @s[scores={random=4}] run function willpvp2:arena/plainhills/start_weather/rainy_day
 execute if entity @s[scores={random=5}] run function willpvp2:arena/plainhills/start_weather/stormy_day

@@ -1,0 +1,1 @@
+playsound minecraft:entity.witch.celebrate master @a ~ ~ ~ 1 1.5 0
