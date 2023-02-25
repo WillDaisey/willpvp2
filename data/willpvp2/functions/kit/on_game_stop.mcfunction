@@ -8,3 +8,4 @@ tag @a remove purgatory_victim
 tag @a remove willpvp2TransformedClown
 schedule clear willpvp2:kit/purgatory/leave_realm
 schedule clear willpvp2:kit/clown/transform_back_schedule
+schedule clear willpvp2:kit/tiger/debuff_cleared
