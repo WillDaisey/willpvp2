@@ -17,3 +17,5 @@ item replace entity @s armor.feet with minecraft:leather_boots{Unbreakable:1,dis
 effect give @s minecraft:speed 10000 0 true
 effect give @s minecraft:strength 10000 1 true
 effect give @s minecraft:night_vision 10000 0 true
+
+attribute @s minecraft:generic.knockback_resistance modifier add e98afd2d-6467-455f-90a3-c2f45af29f28 "Tiger's Resolve" 1.0 add

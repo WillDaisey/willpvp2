@@ -21,10 +21,10 @@ worldborder set 300
 
 execute as @a run function willpvp2:game/unready
 
-function willpvp2:kit/on_game_stop
-
 # Indicate that we are no longer in a game.
 data modify entity @e[tag=willpvp2Data,limit=1] data.inGame set value 0b
 data modify entity @e[tag=willpvp2Data,limit=1] data.arena set value null
+
+function willpvp2:kit/on_game_stop
 
 kill @e[type=minecraft:item]
