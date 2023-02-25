@@ -8,7 +8,4 @@ effect give @s minecraft:glowing 20 0 true
 effect give @s minecraft:night_vision 20 0 true
 playsound minecraft:entity.warden.death master @a ~ ~ ~ 2 1.4
 
-
-# TODO:
-# Is this on purpose? Minecraft runs at 20 ticks per second. This schedule takes 20 seconds lol:
-# schedule function willpvp2:kit/thundercrash/supply_s 400t replace
+schedule function willpvp2:kit/thundercrash/supply_s 400t replace
