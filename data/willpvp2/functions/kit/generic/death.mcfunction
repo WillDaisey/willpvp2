@@ -13,6 +13,8 @@ summon firework_rocket ~ ~1 ~ {LifeTime:30,FireworksItem:{id:firework_rocket,Cou
 execute if entity @s[tag=eagle] run playsound minecraft:entity.fox.death master @a ~ ~ ~
 execute if entity @s[tag=umbra] run playsound minecraft:entity.camel.death master @a ~ ~ ~
 execute if entity @s[tag=plunderbones] run playsound minecraft:entity.pillager.death master @a ~ ~ ~
+execute if entity @s[tag=tiger] run playsound minecraft:entity.ravager.death master @a ~ ~ ~ 2 0.7
+execute if entity @s[tag=tiger] run playsound minecraft:entity.zombified_piglin.death master @a ~ ~ ~ 2 0.5
 
 # Get the number of players still alive in-game. Store it in the random_modifier scoreboard.
 execute store result score @s random_modifier if entity @a[tag=willpvp2Playing]

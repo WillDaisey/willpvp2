@@ -7,4 +7,5 @@ execute if entity @s[tag=plunderbones] run playsound minecraft:entity.zombie.att
 execute if entity @s[tag=thundercrash] run function willpvp2:kit/thundercrash/attack
 execute if entity @s[tag=clown] run function willpvp2:kit/clown/attack
 execute if entity @s[tag=willpvp2ForbiddenClown] run function willpvp2:kit/clown/attack
+execute if entity @s[tag=tiger] run function willpvp2:kit/tiger/attack
 scoreboard players set @s damage_dealt 0

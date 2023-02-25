@@ -1,6 +1,6 @@
 function willpvp2:logic/generate_byte
 
-scoreboard players set @s random_modifier 10
+scoreboard players set @s random_modifier 11
 scoreboard players operation @s random %= @s random_modifier
 
 execute if entity @s[scores={random=0}] run function willpvp2:kit/eagle/give
@@ -14,3 +14,4 @@ execute if entity @s[scores={random=7}] run function willpvp2:kit/plunderbones/g
 execute if entity @s[scores={random=8}] run function willpvp2:kit/thundercrash/give
 execute if entity @s[scores={random=9},tag=willpvp2TransformedClown] run function willpvp2:kit/generic/give_random
 execute if entity @s[scores={random=9},tag=!willpvp2TransformedClown] run function willpvp2:kit/clown/give
+execute if entity @s[scores={random=10}] run function willpvp2:kit/tiger/give

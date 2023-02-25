@@ -9,5 +9,6 @@ effect give @a minecraft:saturation 1 2 true
 execute at @a[tag=eagle] run playsound minecraft:entity.parrot.ambient master @a ~ ~ ~ 1 1
 execute at @a[tag=insect] run playsound minecraft:entity.bee.loop master @a ~ ~ ~ 1 1
 execute at @a[tag=thundercrash] run playsound minecraft:entity.allay.ambient_without_item master @a ~ ~ ~ 2 0.5
+execute at @a[tag=tiger] run playsound minecraft:entity.ravager.celebrate master @a ~ ~ ~ 2 0.5
 
 schedule function willpvp2:logic/game_cycle 14s replace
