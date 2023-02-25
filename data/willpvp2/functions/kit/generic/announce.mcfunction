@@ -8,3 +8,4 @@ execute as @s[tag=umbra] run tellraw @a [{"text":"- ","color":"red"}, {"selector
 execute as @s[tag=plunderbones] run tellraw @a [{"text":"- ","color":"red"}, {"selector":"@s"},{"text":" is playing Captain Plunderbones."}]
 execute as @s[tag=thundercrash] run tellraw @a [{"text":"- ","color":"red"}, {"selector":"@s"},{"text":" is playing Thundercrash."}]
 execute as @s[tag=clown] run tellraw @a [{"text":"- ","color":"red"}, {"selector":"@s"},{"text":" is playing Clown."}]
+execute as @s[tag=tiger] run tellraw @a [{"text":"- ","color":"red"}, {"selector":"@s"},{"text":" is playing Tiger."}]

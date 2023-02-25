@@ -9,4 +9,6 @@ execute as @a[tag=!tiger] run playsound minecraft:entity.ravager.roar master @a 
 execute as @a[tag=!tiger] run playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 2 0.5
 effect give @a[tag=!tiger] minecraft:weakness 10 1 true
 effect give @a[tag=!tiger] minecraft:slowness 10 1 true
-execute if entity @s[tag=!tiger] run tellraw @s {"text":"Tiger's roar strikes fear into your heart.","color":"red"}
+tellraw @a[tag=!tiger] {"text":"Tiger's roar strikes fear into your heart.","color":"red"}
+execute if entity @a[tag=!tiger] run tellraw @a [{"text":"> ","color":"yellow"}, {"selector":"@a[tag=!tiger]"},{"text":" was debuffed by Tiger's roar!"}]
+execute if entity @a[tag=!tiger] run schedule function willpvp2:kit/tiger/debuff_cleared 10s replace
