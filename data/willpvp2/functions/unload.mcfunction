@@ -1,5 +1,7 @@
 function willpvp2:game/stop
 
+team remove players
+
 scoreboard objectives remove fly_speed
 scoreboard objectives remove damage_dealt
 scoreboard objectives remove damage_taken

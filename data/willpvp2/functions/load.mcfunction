@@ -1,5 +1,8 @@
 function willpvp2:unload
 
+team add players "Players"
+team modify players nametagVisibility never
+
 scoreboard objectives add damage_dealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add fly_speed minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add damage_taken minecraft.custom:minecraft.damage_taken
