@@ -10,6 +10,6 @@ scoreboard players remove @s willpvp2ClownTransformItems 1
 function willpvp2:kit/generic/give_random
 function willpvp2:kit/generic/supply
 
-schedule function willpvp2:kit/clown/transform_back_schedule 5s append
+schedule function willpvp2:kit/clown/transform_back_schedule 8s append
 
 effect give @s minecraft:instant_health 1 0 true
