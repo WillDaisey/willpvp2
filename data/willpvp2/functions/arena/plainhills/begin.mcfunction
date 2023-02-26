@@ -15,7 +15,7 @@ schedule function willpvp2:arena/plainhills/beacon_charge 20s replace
 setblock 0 7 0 minecraft:glass
 
 # Teleport players into the plainhills arena.
-spreadplayers 0 0 20 49 under 50 false @a
+spreadplayers 0 0 20 49 under 35 false @a
 
 function willpvp2:logic/generate_byte
 
