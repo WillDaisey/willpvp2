@@ -2,6 +2,7 @@
 
 tag @s remove purgatory_victim
 tag @s remove willpvp2TransformedClown
+tag @s remove willpvp2InvisibleClown
 tag @s remove purgatory_in_realm
 
 stopsound @s

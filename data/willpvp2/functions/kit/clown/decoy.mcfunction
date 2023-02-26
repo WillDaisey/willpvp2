@@ -8,3 +8,14 @@ tag @e remove willpvp2NewClownDecoy
 
 clear @s minecraft:carrot_on_a_stick{display:{Name:"\"Decoy\""}} 1
 give @s minecraft:potion{CustomPotionEffects:[{Id:27,Amplifier:4,Duration:20,ShowParticles:0b}],CustomPotionColor:16711680,display:{Name:"\"Explode Decoy\""}}
+
+# Remove armour items so that Clown is invisible.
+item replace entity @s armor.head with minecraft:air
+item replace entity @s armor.chest with minecraft:air
+item replace entity @s armor.legs with minecraft:air
+item replace entity @s armor.feet with minecraft:air
+
+# Schedule a function to restore armour items.
+execute store result score @s willpvp2InvisibleClowns run execute if entity @a[tag=willpvp2InvisibleClown]
+tag @s add willpvp2InvisibleClown
+schedule function willpvp2:kit/clown/make_visible_schedule 5s append

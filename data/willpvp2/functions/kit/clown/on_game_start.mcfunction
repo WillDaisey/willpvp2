@@ -1,4 +1,5 @@
 scoreboard objectives add willpvp2TransformedClowns dummy
+scoreboard objectives add willpvp2InvisibleClowns dummy
 scoreboard objectives add willpvp2ClownTransformItems dummy
 scoreboard objectives add willpvp2ClownDecoyItems dummy
 scoreboard objectives add willpvp2ClownExplodeDecoyItems dummy
