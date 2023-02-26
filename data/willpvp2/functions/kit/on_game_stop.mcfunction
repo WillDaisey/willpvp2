@@ -1,4 +1,5 @@
 scoreboard objectives remove willpvp2TransformedClowns
+scoreboard objectives remove willpvp2InvisibleClowns
 scoreboard objectives remove willpvp2ClownTransformItems
 scoreboard objectives remove willpvp2ClownDecoyItems
 scoreboard objectives remove willpvp2ClownExplodeDecoyItems

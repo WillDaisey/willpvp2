@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:armor_stand"
+    },
+    "title": "Clown's Decoy Surprise",
+    "description": "Hit Clown's decoy",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"willpvp2ClownDecoy\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "willpvp2:kit/clown/decoy_surprise"
+  }
+}
