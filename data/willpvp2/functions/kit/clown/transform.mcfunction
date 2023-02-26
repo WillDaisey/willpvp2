@@ -13,3 +13,5 @@ function willpvp2:kit/generic/supply
 schedule function willpvp2:kit/clown/transform_back_schedule 8s append
 
 effect give @s minecraft:instant_health 1 0 true
+
+tag @s remove willpvp2InvisibleClown
