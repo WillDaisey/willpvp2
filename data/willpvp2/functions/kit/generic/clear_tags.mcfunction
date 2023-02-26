@@ -1,6 +1,7 @@
 tag @s remove willpvp2DisableShopExtraSupplies
 
 tag @s remove umbra
+tag @s remove willpvp2UmbraEmpowered
 tag @s remove tormentor
 tag @s remove eagle
 tag @s remove eagle_screaming

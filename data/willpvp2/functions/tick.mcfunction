@@ -12,5 +12,5 @@ execute as @a[scores={drop=1..}] at @s run function willpvp2:kit/generic/drop
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:barrel"},PickupDelay:1s}] at @s run function willpvp2:logic/explode_self
 
 execute as @a[tag=eagle] at @s run function willpvp2:kit/eagle/tick
-
+execute as @a[tag=umbra] at @s run function willpvp2:kit/umbra/tick
 execute as @e[tag=ward] at @s run function willpvp2:shop/ward/tick
