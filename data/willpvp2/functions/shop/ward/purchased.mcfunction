@@ -1,5 +1,5 @@
 
-scoreboard players remove @s money 10
+scoreboard players remove @s money 20
 playsound minecraft:block.sculk_sensor.clicking master @s ~ ~ ~ 2 1 1
 
 scoreboard players add @s shop.wards 1
