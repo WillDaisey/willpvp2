@@ -6,7 +6,6 @@ data modify entity @e[tag=willpvp2NewClownDecoy,limit=1] Rotation set from entit
 tag @e remove willpvp2NewClownDecoy
 
 clear @s minecraft:carrot_on_a_stick{display:{Name:"\"Decoy\""}} 1
-give @s minecraft:potion{CustomPotionEffects:[{Id:27,Amplifier:4,Duration:20,ShowParticles:0b}],CustomPotionColor:16711680,display:{Name:"\"Explode Decoy\""}}
 
 # Remove armour items so that Clown is invisible.
 item replace entity @s armor.head with minecraft:air
