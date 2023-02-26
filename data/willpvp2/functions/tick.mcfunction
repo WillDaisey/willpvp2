@@ -9,7 +9,7 @@ execute as @a[scores={use_carrot_stick=1..}] at @s run function willpvp2:kit/gen
 
 execute as @a[scores={drop=1..}] at @s run function willpvp2:kit/generic/drop
 
-execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:barrel"},PickupDelay:1s}] at @s run function willpvp2:logic/explode_barrel
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:barrel"},PickupDelay:1s}] at @s run function willpvp2:logic/explode_self
 
 execute as @a[tag=eagle] at @s run function willpvp2:kit/eagle/tick
 

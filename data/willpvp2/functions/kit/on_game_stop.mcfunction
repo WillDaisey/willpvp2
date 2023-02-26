@@ -1,4 +1,7 @@
 scoreboard objectives remove willpvp2TransformedClowns
+scoreboard objectives remove willpvp2ClownTransformItems
+scoreboard objectives remove willpvp2ClownDecoyItems
+scoreboard objectives remove willpvp2ClownExplodeDecoyItems
 
 tag @a remove willpvp2Playing
 execute as @a run function willpvp2:kit/generic/clear
