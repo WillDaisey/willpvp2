@@ -1,5 +1,5 @@
 schedule function willpvp2:kit/eagle/ready_scream 5t replace
-effect give @a glowing 1 0 true
+effect give @s glowing 1 0 true
 effect give @s strength 1 3 true
 execute if entity @s[tag=!eagle_screaming] run playsound minecraft:entity.fox.screech master @a ~ ~ ~ 2 0.65 1
 tag @s add eagle_screaming
